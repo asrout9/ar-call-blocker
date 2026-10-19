@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Shield Glow / Halo -->
+    <path
+        android:pathData="M54,23 L32,32 C32,56 42,75 54,85 C66,75 76,56 76,32 Z"
+        android:strokeWidth="3.5"
+        android:strokeAlpha="0.3"
+        android:strokeColor="#00E5FF" />
+
+    <!-- Main Shield Body -->
+    <path
+        android:pathData="M54,25 L34,34 C34,55 43.5,72 54,82 C64.5,72 74,55 74,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="25"
+                android:endX="54"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1A73E8" />
+                <item android:offset="0.6" android:color="#0052CC" />
+                <item android:offset="1.0" android:color="#002D80" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Shield Left Highlight / 3D Specular Shading -->
+    <path
+        android:pathData="M54,25 L34,34 C34,55 43.5,72 54,82 L54,25 Z"
+        android:fillAlpha="0.15"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Shield Inner Border Accent -->
+    <path
+        android:pathData="M54,29 L38,36.5 C38,53 45.5,67 54,75.5 C62.5,67 70,53 70,36.5 Z"
+        android:strokeWidth="1.2"
+        android:strokeColor="#00E5FF" />
+
+    <!-- Modern Phone Receiver Emblem -->
+    <path
+        android:pathData="M48.5,42 C47.5,42 46.5,42.8 46.5,43.8 C46.5,47.2 48,51 51,54 C54,57 57.8,58.5 61.2,58.5 C62.2,58.5 63,57.7 63,56.7 L63,53.5 C63,52.8 62.5,52.2 61.8,52 L58.8,51.2 C58.2,51 57.5,51.2 57.1,51.7 L55.8,53 C53.5,51.8 51.5,49.8 50.3,47.5 L51.6,46.2 C52.1,45.8 52.3,45.1 52.1,44.5 L51.3,41.5 C51.1,40.8 50.5,40.3 49.8,40.3 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Call Blocker Intercept Signal Wave (Top Right Arc) -->
+    <path
+        android:pathData="M59,42 A6,6 0 0 1 65,48"
+        android:strokeWidth="2"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M59,38 A10,10 0 0 1 69,48"
+        android:strokeWidth="2"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.6" />
+</vector>

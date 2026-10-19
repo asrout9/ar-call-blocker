@@ -1,0 +1,77 @@
+# ==============================================================================
+# Android & Gradle .gitignore
+# ==============================================================================
+
+# Built application files and packages
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated build directories
+bin/
+gen/
+out/
+build/
+*/build/
+
+# Gradle files & caches
+.gradle/
+buildOutput/
+
+# Local configuration files (contains local SDK/NDK paths)
+local.properties
+
+# Proguard / R8 mappings and rules output
+proguard/
+**/configuration.txt
+**/mapping.txt
+**/seeds.txt
+**/usage.txt
+
+# Android Studio & IntelliJ IDEA
+*.iml
+.idea/
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Kotlin compiler metadata & caches
+.kotlin/
+
+# Signing keys & keystores
+*.jks
+*.keystore
+*.key
+
+# Google Services & secrets
+google-services.json
+
+# OS-specific metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Android Profiling & Dumps
+*.hprof
+*.trace
+
+# Log files
+*.log
+
+# Explicitly ensure Room database schema exports are tracked
+!app/schemas/
